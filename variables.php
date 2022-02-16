@@ -9,6 +9,17 @@
 	<?php
 		$txt = "iespoligonosur.org";
 		echo "Me gusta PHP y lo estudio en el " . "<b>" . $txt . "!" . "<b>";
+		echo "<br>";
+		var_dump($txt);
+		echo "<br>";
+		
+		$salario = 937.25;
+		var_dump($salario);
+		echo "<br>";
+
+		$llueve = true;
+		var_dump($llueve);
+		echo "<br>";
 	?>
 </body>
 </html>

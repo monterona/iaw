@@ -3,9 +3,14 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Probando</title>
+	<title>NaN</title>
 </head>
 <body>
-	<h1>Probando</h1>
+	<?php
+
+		// NaN se utiliza para operaciones matemáticas imposibles
+		$x = acos(8);
+		var_dump($x);
+	?>
 </body>
 </html>
