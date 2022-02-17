@@ -9,8 +9,8 @@
 	<?php
 		// Un entero es un número sin ninguna parte decimal
 	
-		$x = 5985;
-		var_dump($x);
+		$x = -5985;
+		var_dump(is_int($x));
 
 		echo "<br>";
 		$y = 59.85;

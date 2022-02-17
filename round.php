@@ -10,14 +10,28 @@
 		$x = 8 - 6.4;
 		$y = 1.6;
 
-		echo $x . "<br>";
+		echo $x;
+		echo "<br>";
 		echo $y . "<br>";
+
+		var_dump($x);
+		echo "<br>";
+		var_dump($y);
+		echo "<br>";
+
+
 
 		if ($x == $y) {
 		 	echo "Iguales";
 		} else {
 			echo "Distintos";
 		}
+
+		//$x = $y;
+		echo "<br>";
+		var_dump($x == $y);
+
+
 		echo "<br>";
 		$x = round ($x,2);
 		$y = round ($y,2);
