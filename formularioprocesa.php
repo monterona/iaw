@@ -11,7 +11,7 @@
 		$departamento = $_GET['departamento'];
 		echo "El usuario es: " . $usuario;
 		echo "<br>";
-		print ("El departamento es: $departamento");
+		print ("El departamento es:  $departamento");
 	?>
 </body>
 </html>

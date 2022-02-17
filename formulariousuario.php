@@ -10,6 +10,7 @@
 			Usuario: <input type="text" name="usuario"/>
 			Departamento: <input type="text" name="departamento"/>
 			<input type="submit" value ="Enviar"/>
+			<input type="reset" value = "Borrar">
 		</form>
 </body>
 </html>
