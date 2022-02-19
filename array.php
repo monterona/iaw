@@ -9,6 +9,10 @@
 	<?php
 		$coches = array ("Volvo", "BMW", "Toyota", "VolksWagen");
 		var_dump($coches);
+
+		echo "<br>";
+
+		echo $coches [2];
 	?>
 </body>
 </html>

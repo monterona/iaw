@@ -11,13 +11,9 @@
 			un valor simple que no puede ser 
 			modificado */
 
-		// define (name, value, case-insensitive);
-
 		define ("SALUDO", "Bienvenido al IES Polígono Sur");
-		echo SALUDO . "<br>";
-
-		define ("SALUDO", "Bienvenido al IES Polígono Sur", true);
 		echo SALUDO;
+
 	?>
 </body>
 </html>
